@@ -1,6 +1,9 @@
 package BaseTests;
 
 
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
 
@@ -10,6 +13,9 @@ public class BaseTest extends Anotatoin {                      // присоед
     int n=12;
 
     @Test
+    @Epic("Селениум")
+    @Feature("Гугле тетс")
+    @Story("Проверяем картинки")
     public void Abc() {
         // метод сравнения с числом
         if (k > n){
