@@ -21,10 +21,6 @@ public class FABase {
 
     public void beforetest() {
 
-
-
-
-
         ChromeOptions options = new ChromeOptions();
 
         DesiredCapabilities dc = DesiredCapabilities.chrome();
